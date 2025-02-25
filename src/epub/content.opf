@@ -28,54 +28,58 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Green Hat</dc:title>
 		<meta property="file-as" refines="#title">Green Hat, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Romance for a Few People</dc:title>
+		<meta property="file-as" refines="#subtitle">Romance for a Few People, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Green Hat: A Romance for a Few People</dc:title>
+		<meta property="file-as" refines="#fulltitle">Green Hat, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Love stories</dc:subject>
-		<dc:subject id="subject-2">Great Britain -- Social conditions -- 20th century -- Fiction</dc:subject>
-		<dc:subject id="subject-3">Europe -- Social conditions -- 20th century -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Great Britain -- Social life and customs--20th century -- Fiction</dc:subject>
+		<dc:subject id="subject-3">France -- Social life and customs -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">Unknown</meta>
+		<meta property="term" refines="#subject-1">sh85078600</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">Unknown</meta>
+		<meta property="term" refines="#subject-2">sh2008115269</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
-		<meta property="term" refines="#subject-3">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-3">sh2008115113</meta>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">A young woman’s life begins to unravel when her romantic affairs and long held secrets are revealed.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;The life of an unnamed narrator is forever changed after meeting Iris Storm, the enigmatic woman that knocked on his door looking for her estranged brother. Becoming entangled in her rebellious life of glamour, excess, and carefree romance, the narrator reflects on Iris Storm’s relationships with her family, friends and lovers, and gradually becomes aware of the secrets and contradictions that hide behind such a larger than life persona.&lt;/p&gt;
+			&lt;p&gt;Published in 1924, &lt;i&gt;The Green Hat&lt;/i&gt; explores the pursuit of happiness, authenticity and true love between young people in a post-World War One setting in the face of temptation, personal loss, and various societal expectations.&lt;/p&gt;
+			&lt;p&gt;Despite its controversial nature, the novel and its characters resonated with readers and eventually became a bestseller in the United Kingdom and the United States on first release. The story of &lt;i&gt;The Green Hat&lt;/i&gt; was adapted to a stage play in 1925, and later became the basis for film productions such as &lt;i&gt;A Woman of Affairs&lt;/i&gt; (1928), and &lt;i&gt;Outcast Lady&lt;/i&gt; (1934).&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/71913</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/greenhat00arle</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Green_Hat</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/michael-arlen_the-green-hat</meta>
 		<dc:creator id="author">Michael Arlen</dc:creator>
 		<meta property="file-as" refines="#author">Arlen, Michael</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Michael_Arlen</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n50001591</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50001591</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Alice Pike Barney</dc:contributor>
+		<meta property="file-as" refines="#artist">Barney, Alice Pike</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Alice_Pike_Barney</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n84199487</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
+		<dc:contributor id="transcriber-1">Tim Lindell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Lindell, Tim</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_2_URL</meta>
+		<dc:contributor id="transcriber-2">Chuck Greif</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Greif, Chuck</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
+		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Sergio Tellez</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Tellez, Sergio</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
