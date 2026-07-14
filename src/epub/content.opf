@@ -36,7 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">The Green Hat: A Romance for a Few People</dc:title>
 		<meta property="file-as" refines="#fulltitle">Green Hat, The</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Love stories</dc:subject>
 		<dc:subject id="subject-2">Great Britain -- Social life and customs--20th century -- Fiction</dc:subject>
 		<dc:subject id="subject-3">France -- Social life and customs -- Fiction</dc:subject>
