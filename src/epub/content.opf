@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/michael-arlen/the-green-hat</dc:identifier>
 		<dc:date>2025-02-27T22:22:34Z</dc:date>
@@ -47,12 +47,12 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008115113</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">A young woman’s life begins to unravel when her romantic affairs and long-held secrets are revealed.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A young woman’s life begins to unravel when her romantic affairs and long-held secrets are revealed.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;The life of an unnamed narrator is forever changed after meeting Iris Storm, the enigmatic woman who knocked on his door searching for her estranged brother. The narrator quickly finds himself entangled in Iris’s rebellious life of glamour, excess, and carefree romance. As he reflects on her relationships with her family, friends, and lovers, he gradually becomes aware of the secrets and contradictions that hide behind the larger-than-life persona.&lt;/p&gt;
 			&lt;p&gt;Published in 1924, &lt;i&gt;The Green Hat&lt;/i&gt; explores the pursuit of happiness, authenticity, and true love between young people in a post–World War I setting filled with temptation, personal loss, and societal expectations.&lt;/p&gt;
 			&lt;p&gt;The hedonism on display in the novel made it very controversial, but despite that the novel resonated with readers and eventually became a bestseller. In 1925 it was adapted into a stage play by &lt;a href="https://standardebooks.org/ebooks/michael-arlen"&gt;Arlen&lt;/a&gt; himself, and later became the basis for films like &lt;i&gt;A Woman of Affairs&lt;/i&gt;, and &lt;i&gt;Outcast Lady&lt;/i&gt;.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/71913</dc:source>
 		<dc:source>https://archive.org/details/greenhat00arle</dc:source>
